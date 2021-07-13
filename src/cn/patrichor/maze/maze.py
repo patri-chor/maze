@@ -1,1 +1,1 @@
-print('maze')
+print('maze ')
