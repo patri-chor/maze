@@ -19,6 +19,7 @@ def extend(c, d):
                     print(wall, end='')
                 l //= 3
             print()
+        print()
         time.sleep(0.1)
         maze[y] += 3 ** x
         for l in maze[1: -1]:
@@ -29,6 +30,7 @@ def extend(c, d):
                     print(wall, end='')
                 l //= 3
             print()
+        print()
         time.sleep(0.1)
     else:
         maze[y - d // 2] += 3 ** (x - c // 2)
